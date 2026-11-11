@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>FORGE Privacy Policy</title>
+<meta name="description" content="How FORGE — Habit Tracker handles your data: anonymous ID, no email, photos never stored."/>
+<style>
+:root{--bg:#000;--fg:#e8e8e8;--muted:#9a9a9a;--line:#222;--accent:#fff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+main{max-width:720px;margin:0 auto;padding:48px 16px 96px}
+h1{font-size:36px;font-weight:900;letter-spacing:-.02em;margin:0 0 8px;color:var(--accent)}
+h2{font-size:20px;font-weight:800;margin:40px 0 8px;color:var(--accent)}
+p,li{color:var(--fg)}
+.muted{color:var(--muted)}
+a{color:var(--accent)}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:14px}
+th,td{text-align:left;vertical-align:top;padding:10px 8px;border-bottom:1px solid var(--line)}
+th{color:var(--muted);font-weight:600}
+.box{border:1px solid var(--line);border-radius:12px;padding:16px 20px;margin:24px 0}
+.box ul{margin:0;padding-left:20px}
+@media (max-width:560px){table,thead,tbody,tr,th,td{display:block}thead{display:none}td{border:0;padding:4px 0}tr{border-bottom:1px solid var(--line);padding:10px 0}td:first-child{font-weight:700}}
+</style>
+</head>
+<body>
+<main>
+<h1>Privacy Policy.</h1>
+<p class="muted">FORGE — Habit Tracker · Effective November 11, 2026</p>
+
+<div class="box">
+<strong>The short version</strong>
+<ul>
+<li>No email, no name, no phone number, no account password. You are an Anonymous ID like <code>FRG-XXXX-XXXX-XXXX</code>.</li>
+<li>Your face photos are <strong>never stored</strong>. They are sent to our AI provider to be scored, then discarded. We keep only the numbers.</li>
+<li>No ads, no tracking across apps or websites, no data sold or shared for advertising.</li>
+<li>You can delete everything at any time in the app: More → Delete account.</li>
+<li>FORGE is for adults 18 and over.</li>
+</ul>
+</div>
+
+<h2>1. Who we are</h2>
+<p>FORGE is operated by RAPIDEV (doing business as FORGE), 1090/496 The Line Phahonyothin Park Building B, Chatuchak, Bangkok 10900, Thailand ("we", "us"). We are the controller of the data described here. Contact: <a href="mailto:[SUPPORT_EMAIL]">[SUPPORT_EMAIL]</a>.</p>
+
+<h2>2. What we collect and why</h2>
+<table>
+<thead><tr><th>Data</th><th>Why</th><th>Where it lives</th></tr></thead>
+<tbody>
+<tr><td>Anonymous ID</td><td>Identifies your data so it can sync and be restored. It is also the ID our subscription provider uses.</td><td>Our server; your phone's Keychain</td></tr>
+<tr><td>Calibration: age, height, weight, your chosen priorities and target habit</td><td>Tailors your scan and protocol.</td><td>Our server</td></tr>
+<tr><td>Habits, check-ins, routines, habit order</td><td>Streaks, calendar, compliance stats.</td><td>Our server</td></tr>
+<tr><td>Journal entries</td><td>Your private journal. Not sent to AI.</td><td>Our server</td></tr>
+<tr><td>Scan results (numeric scores, protocol, verdicts, reports)</td><td>Tracks your progress over time.</td><td>Our server</td></tr>
+<tr><td>Face photo</td><td>Scored by AI during a scan. <strong>Not stored.</strong> See section 3.</td><td>Held in memory only while it is being analyzed</td></tr>
+<tr><td>Purchase status</td><td>Unlocks Pro. We never see your card or Apple ID.</td><td>Apple and RevenueCat</td></tr>
+<tr><td>IP address and request logs</td><td>Security, abuse and rate limiting, debugging.</td><td>Our hosting provider's logs, kept for a short time</td></tr>
+</tbody>
+</table>
+<p>Some data stays only on your phone and never reaches us. That includes your optional codename, your reminder time, a flag that your free scan was used, and cached copies of your data for offline use.</p>
+<p>We do not collect your name, email, phone number, contacts, location, advertising ID or health-app data. Reminders are local notifications scheduled on your phone; we do not use push tokens.</p>
+
+<h2>3. Face photos</h2>
+<p>We ask for your consent before your first scan. When you scan, the photo is sent over an encrypted connection to our server and passed to Anthropic's Claude AI. The AI returns scores for visible features such as skin, jawline definition and grooming. Then the photo is discarded. We never write it to a database, file or log.</p>
+<p>We do not use photos to identify you, to recognize you across photos, or to build a face template. We never sell them or share them for advertising. Anthropic processes the photo for us as a service provider under its commercial terms. Under those terms Anthropic does not train its models on it and may keep it only for a limited time for safety and abuse monitoring. See <a href="https://privacy.anthropic.com" rel="noopener">Anthropic's privacy center</a>.</p>
+<p>You can use FORGE without ever scanning. Scores are AI opinions, not measurements or medical advice.</p>
+
+<h2>4. Who we share data with</h2>
+<p>We only share data with service providers that run the app for us:</p>
+<ul>
+<li><strong>Anthropic</strong> runs the AI for scans and Pro text features. For a scan it gets the photo plus your calibration data. For Pro features it gets your habit and scan stats.</li>
+<li><strong>RevenueCat</strong> and <strong>Apple</strong> handle subscriptions, using your Anonymous ID.</li>
+<li><strong>MongoDB Atlas</strong> is our database.</li>
+<li><strong>Railway</strong> hosts our server.</li>
+<li><strong>Cloudflare</strong> hosts our website.</li>
+</ul>
+<p>We may also disclose data if the law requires it, or to a buyer if the business is sold, in which case this policy still applies. We do not sell personal information or "share" it for cross-context behavioral advertising.</p>
+
+<h2>5. How long we keep it</h2>
+<p>We keep your data while your account exists. Delete your account in the app (More → Delete account) and we erase your records from our database right away. Copies in backups and logs expire on their normal cycle, within 30 days. A "Fresh Start" wipes your scans and protocol but keeps your account.</p>
+<p>Your Anonymous ID is kept in your phone's Keychain, so it can survive a reinstall. Deleting your account removes it from the phone too. The phone keeps only the flag that its free scan was used, which has no personal data in it. Apple and RevenueCat keep purchase records as billing law requires. Deleting your account does not cancel a subscription; cancel that in your App Store settings.</p>
+
+<h2>6. Your rights</h2>
+<p>Depending on where you live (for example the EU/UK under GDPR, California under the CCPA/CPRA, other US states, or Thailand under the PDPA), you may have the right to access, correct, delete or export your data, to object to or restrict processing, and to withdraw consent. Most of this you can do yourself in the app. Otherwise email <a href="mailto:[SUPPORT_EMAIL]">[SUPPORT_EMAIL]</a> and include your Anonymous ID, since we have no other way to find your data. We will not treat you differently for using these rights. You can also complain to your local data protection authority.</p>
+<p>Legal bases (GDPR): <em>contract</em> to provide the app; <em>consent</em> for face-photo analysis, which you can withdraw by not scanning or by deleting your account; <em>legitimate interests</em> for security logs.</p>
+
+<h2>7. International transfers</h2>
+<p>Our servers and providers are mainly in the United States. Where the law requires it, we rely on safeguards such as the providers' Standard Contractual Clauses.</p>
+
+<h2>8. Security</h2>
+<p>Data is encrypted in transit (HTTPS). Your Anonymous ID works like a password: anyone who has it can restore your data, so keep it private. No system is perfectly secure.</p>
+
+<h2>9. Age</h2>
+<p>FORGE is only for people 18 and over. We do not knowingly collect data from anyone under 18. If you believe a minor is using FORGE, email us and we will delete the data.</p>
+
+<h2>10. Changes</h2>
+<p>If we change this policy, we will post the new version here and update the date at the top.</p>
+</main>
+</body>
+</html>
