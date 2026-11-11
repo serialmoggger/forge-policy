@@ -61,6 +61,7 @@ th{color:var(--muted);font-weight:600}
 
 <h2>3. Face photos</h2>
 <p>We ask for your consent before your first scan. When you scan, the photo is sent over an encrypted connection to our server and passed to Anthropic's Claude AI. The AI returns scores for visible features such as skin, jawline definition and grooming. Then the photo is discarded. We never write it to a database, file or log.</p>
+<p>From each scan photo we also keep a short image fingerprint (a 16-character "perceptual hash"). It is used only to notice when the same photo is uploaded twice, so you get the same scores again. The photo cannot be rebuilt from it, and it cannot recognize a face or tell people apart. It is deleted along with your scans.</p>
 <p>We do not use photos to identify you, to recognize you across photos, or to build a face template. We never sell them or share them for advertising. Anthropic processes the photo for us as a service provider under its commercial terms. Under those terms Anthropic does not train its models on it and may keep it only for a limited time for safety and abuse monitoring. See <a href="https://privacy.anthropic.com" rel="noopener">Anthropic's privacy center</a>.</p>
 <p>You can use FORGE without ever scanning. Scores are AI opinions, not measurements or medical advice.</p>
 
@@ -76,7 +77,7 @@ th{color:var(--muted);font-weight:600}
 <p>We may also disclose data if the law requires it, or to a buyer if the business is sold, in which case this policy still applies. We do not sell personal information or "share" it for cross-context behavioral advertising.</p>
 
 <h2>5. How long we keep it</h2>
-<p>We keep your data while your account exists. Delete your account in the app (More → Delete account) and we erase your records from our database right away. Copies in backups and logs expire on their normal cycle, within 30 days. A "Fresh Start" wipes your scans and protocol but keeps your account.</p>
+<p>We keep your data while your account exists. Delete your account in the app (More → Delete account) and we erase your records from our database right away. We keep no database backups. Server logs hold no account data and are deleted automatically after 7 days. A "Fresh Start" wipes your scans and protocol but keeps your account.</p>
 <p>Your Anonymous ID is kept in your phone's Keychain, so it can survive a reinstall. Deleting your account removes it from the phone too. The phone keeps only the flag that its free scan was used, which has no personal data in it. Apple and RevenueCat keep purchase records as billing law requires. Deleting your account does not cancel a subscription; cancel that in your App Store settings.</p>
 
 <h2>6. Your rights</h2>
